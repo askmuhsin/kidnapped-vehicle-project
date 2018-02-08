@@ -1,5 +1,5 @@
 # Particle Filter
-This project demonstrates the implementation of a particle filter to track a car in real time with high accuracy using noisy sensor data. Particle filters are powerful sampling-based learning algorithms, they belong to the Bayesian family of filters.
+This project implements a particle filter to track a car in real time with high accuracy using noisy sensor data. Particle filters are powerful sampling-based learning algorithms, they belong to the Bayesian family of filters.
 They are easy to implement(compared to some other loclization filters), continous, and capable of having multimodal beliefs. 
 To know more about the applications of particle filter in robotics visit this [link](http://robots.stanford.edu/papers/thrun.pf-in-robotics-uai02.pdf).
 
