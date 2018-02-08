@@ -137,11 +137,14 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
           if(association!=0) {
               double meas_x = observation_vector[i].x;
               double meas_y = observation_vector[i].y;
+
               double mu_x = map_landmarks.landmark_list[association].x_f;
               double mu_y = map_landmarks.landmark_list[association].y_f;
+
               long double multipler = 1 / (2 * M_PI * std_landmark[0] * std_landmark[1]) *
                                       exp(-(pow(meas_x - mu_x, 2.0) / (2 * pow(std_landmark[0], 2.0)) +
                                             pow(meas_y - mu_y, 2.0) / (2 * pow(std_landmark[1], 2.0))));
+
               if (multipler > 0) {
                   particles[n].weight *= multipler;
               }
