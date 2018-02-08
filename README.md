@@ -25,11 +25,11 @@ Once the install for uWebSocketIO is complete, the main program can be built and
 The scripts builds and runs the program without any errors.
 Note: The source file `particle_filter.cpp` contains the core algorithms. The number of particles can be changed there.
 
-With    *Particles = 100*
+With    *Particles = 100 ---> *
         *Errors :*
         *x - 0.117, y - 0.109, yaw - 0.004*
 
-With    *Particles = 1000*
+With    *Particles = 1000 ---> *
         *Errors :*
         *x - 0.109, y - 0.099, yaw - 0.003*
 
