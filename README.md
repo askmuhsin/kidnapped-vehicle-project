@@ -28,14 +28,12 @@ Note: The source file `particle_filter.cpp` contains the core algorithms. The nu
 With    Particles = 100
 <br></br>
         Errors :
-<br></br>
         x - 0.117, y - 0.109, yaw - 0.004
 <br></br>
 <br></br>
 With    Particles = 1000
 <br></br>
         Errors :
-<br></br>
         x - 0.109, y - 0.099, yaw - 0.003
  <br></br>
  <br></br>
